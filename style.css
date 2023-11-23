@@ -96,8 +96,8 @@
 /* Additional adjustments for the navigation items on smaller screens */
 @media (max-width: 768px) {
     .nav-item {
-        margin: 5px 0; /* Adjust margin for smaller screens */
-        padding: 2px 0; /* Adjust padding for smaller screens */
+        margin: auto; /* Adjust margin for smaller screens */
+        padding: 0.5px 0; /* Adjust padding for smaller screens */
         font-size: 2vw;
     }
 
