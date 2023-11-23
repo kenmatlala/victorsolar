@@ -1,7 +1,7 @@
 .navbar {
     z-index: 100;
     background: linear-gradient( to left, whitesmoke 40%, aliceblue 60%);
-    height: 50px;
+    height: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
