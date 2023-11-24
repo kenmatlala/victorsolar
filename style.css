@@ -14,6 +14,43 @@
   padding: auto;
 }
 
+op: 6px; /* Adjust the spacing between lines */
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon:before {
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon:after {
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Larger font size for mobile devices */
+@media (max-width: 767px) {
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    font-size: 18px; /* Adjust the font size */
+  }
+
+  .navbar-toggler {
+    font-size: 24px; /* Adjust the font size of the toggler button */
+  }
+
+  .navbar-collapse {
+    text-align: center; /* Center-align the dropdown menu items */
+  }
+
+  .navbar-collapse .navbar-nav {
+    margin-top: 10px; /* Adjust the spacing between navbar items in the dropdown */
+  }
+
+  .navbar-collapse .navbar-nav .nav-item {
+    text-align: center; /* Center-align individual dropdown items */
+  }
+}
+
 /*------------------------------------------------------------------------------------------------------------*/
 /* body
 landing page */
