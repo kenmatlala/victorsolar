@@ -4,62 +4,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  
 
     <link rel="stylesheet" href="./style.css">
     <script src="script.js"></script>
 
-    <title>TLFM Energy</title>
+    <title>NavBar</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <header>
-            <!-- Bootstrap Navbar -->
-            <nav class="navbar navbar-expand-lg" id="navbar-container">
-
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="#"><img id="logo-image" src="./img/1.png" alt="Logo"> <a class="logotext">TLFM Energy</a></a>
-                    <!-- navbar toggler button -->
-                    <button class="navbar-toggler" onclick="toggleMenu(this)" type="button" aria-label="Toggle navigation">
-                        <svg width="100" height="100" viewBox="0 0 100 100">
-                            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                            <path class="line line2" d="M 20,50 H 80" />
-                            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                        </svg>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- navigation items (collapsible) -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-
-                            <!-- home icon -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span class="nav-icon"><i class="fas fa-home"></i></span>
-                                    <span class="nav-text">Home</span>
-                                </a>
-                            </li>
-
-                            <!-- profile icon -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span class="nav-icon"><i class="fas fa-user"></i></span>
-                                    <span class="nav-text">Profile</span>
-                                </a>
-                            </li>
-
-                            <!-- contact icon -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span class="nav-icon"><i class="fas fa-envelope"></i></span>
-                                    <span class="nav-text">Contact</span>
-                                </a>
-                            </li>
-
-                        </ul>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/1.png" alt="Your Logo">
+                    <div class="navContent">
+                      <div class="navName">TRFM ENERGY</div>
                     </div>
+                </a>
+                  
+
+                <!-- Toggle Button for Mobile View -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
             </nav>
         </header>
     </div>
