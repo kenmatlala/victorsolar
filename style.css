@@ -14,7 +14,14 @@
   padding: auto;
 }
 
-op: 6px; /* Adjust the spacing between lines */
+.navbar-toggler-icon:before,
+.navbar-toggler-icon:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333; /* Change the color to match your design */
+  margin-top: 6px; /* Adjust the spacing between lines */
 }
 
 .navbar-toggler.collapsed .navbar-toggler-icon:before {
@@ -50,7 +57,6 @@ op: 6px; /* Adjust the spacing between lines */
     text-align: center; /* Center-align individual dropdown items */
   }
 }
-
 /*------------------------------------------------------------------------------------------------------------*/
 /* body
 landing page */
