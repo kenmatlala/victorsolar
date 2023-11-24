@@ -82,8 +82,8 @@
 
 /* Modify the styling of the custom hamburger button */
 .navbar-toggler {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 3em; /* Adjust the width as needed */
+    height: 3em; /* Adjust the height as needed */
     background-color: whitesmoke;
     border: transparent;
     cursor: pointer;
